@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+main {
+  padding-top: 200px;
+  min-height: 100vh;
+}
+main h3 {
+  font-size: 24px;
+}
+main h1 {
+  margin-top: 30px;
+  font-size: 82px;
+  font-weight: 800;
+  width: 90%;
+  line-height: 78px;
+  text-transform: capitalize;
+}
+main h2 {
+  margin-top: 30px;
+  font-size: 28px;
+  width: 90%;
+}
+main .main-image {
+  margin-top: 70px;
+  width: 120%;
+}
+main .after-main {
+  margin-top: 100px;
+}
+main .after-main .after-main-left {
+  position: sticky;
+  top: 120px;
+}
+main .after-main .after-main-left h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+main .after-main .after-main-left h2 {
+  margin-top: 0px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+main .after-main .after-main-right {
+  height: 1700px;
+}
+main .after-main .after-main-right p {
+  font-size: 18px;
+}
+main .after-main .after-main-right h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+main .after-main .after-main-right .video-box {
+  margin: 40px 0px;
+}/*# sourceMappingURL=insight-detail.css.map */

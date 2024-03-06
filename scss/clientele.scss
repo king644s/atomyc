@@ -1,0 +1,191 @@
+@import "./fonts.scss";
+@import "./var.scss";
+@import "../bootstrap/scss/bootstrap.scss";
+
+:root {
+  --client-img-deimensions: #{$client-desktop};
+}
+.client-img-bg {
+  background-image: $clientele-css-sprite;
+  background-repeat: no-repeat;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  &:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+}
+
+$client-img-deimensions: $client-desktop;
+@mixin client-image($bg-position-x, $bg-position-y, $scale: 1, $margin-top: 0) {
+  @extend .client-img-bg;
+  background-position: calc(var(--client-img-deimensions) * #{$bg-position-x}px)
+    calc(var(--client-img-deimensions) * #{$bg-position-y}px);
+  scale: $scale;
+  margin-top: $margin-top;
+}
+
+main {
+  padding-top: 120px;
+  h1 {
+    font-size: 70px;
+    font-weight: 600;
+    transform: translate(0%, 80%);
+  }
+  .clientele-first-section {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707732587/clientele/Clientele_BG_i6sdiw.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 4.4;
+  }
+  .client-section {
+    .client-img {
+      // border: 1px solid rebeccapurple;
+      height: 300px;
+      width: 300px;
+      // border: 1px solid red;
+    }
+    .client-aegon-life {
+      @include client-image(0, 0, 0.8);
+    }
+    .client-ceat {
+      @include client-image(-1, 0, 0.8);
+    }
+    .client-kuwait-airways {
+      @include client-image(-2, 0, 0.8);
+    }
+    .client-godrej-construction {
+      @include client-image(-3, 0, 1, -70px);
+    }
+    .client-godrej-electricals {
+      @include client-image(-4, 0, 1, -70px);
+    }
+    .client-godrej-security {
+      @include client-image(0, -1, 1, -70px);
+    }
+    .client-bounce {
+      @include client-image(-1, -1, 0.7, -50px);
+    }
+    .client-araya-bagh {
+      @include client-image(-2, -1, 0.7, -50px);
+    }
+    .client-super-buddy {
+      @include client-image(-3, -1, 0.7, -50px);
+    }
+    .client-sector {
+      @include client-image(-4, -1, 0.55, -70px);
+    }
+    .client-canosh {
+      @include client-image(0, -2, 0.65, -70px);
+    }
+    .client-foodhall {
+      @include client-image(-1, -2, 0.65, -70px);
+    }
+    .client-house-of-tea {
+      @include client-image(-2, -2, 0.4, -75px);
+    }
+    .client-saral-home {
+      @include client-image(-3, -2, 0.5, -75px);
+    }
+    .client-we-derm {
+      @include client-image(-4, -2, 0.5, -75px);
+    }
+    .client-korea {
+      @include client-image(0, -3, 0.8, -50px);
+    }
+    .client-oman {
+      @include client-image(-1, -3, 0.4, -50px);
+    }
+    .client-thailand {
+      @include client-image(-2, -3, 0.5, -50px);
+    }
+    .client-icici {
+      @include client-image(-3, -3, 0.8, -60px);
+    }
+    .client-copper {
+      @include client-image(-4, -3, 0.8, -60px);
+    }
+    .client-carnelian {
+      @include client-image(0, -4, 0.4, -60px);
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .client-section {
+    padding: 0px 130px;
+  }
+}
+@media (min-width: 1660px) {
+  main {
+    h1 {
+      font-size: 90px;
+    }
+  }
+}
+@include media-breakpoint-down(xxl) {
+  main {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  :root {
+    --client-img-deimensions: #{$client-lg};
+  }
+
+  .client-img-bg {
+    background-image: $clientele-css-sprite-lg;
+  }
+  main {
+    h1 {
+      font-size: 50px;
+    }
+    .client-section {
+      .client-img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(lg) {
+  main {
+    h1 {
+      font-size: 38px;
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  :root {
+    --client-img-deimensions: #{$client-mobile};
+  }
+  .client-img-bg {
+    background-image: $clientele-css-sprite-mobile;
+  }
+
+  main {
+    .clientele-first-section {
+      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707732588/clientele/Clientele_BG_Mobile_bdj6eh.png");
+      aspect-ratio: 1.5;
+      margin-top: -30px;
+    }
+    h1 {
+      font-size: 28px;
+      transform: translate(0%);
+    }
+    .client-section {
+      .client-img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+}

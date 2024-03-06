@@ -1,0 +1,340 @@
+@import "./fonts.scss";
+@import "./var.scss";
+@import "../bootstrap/scss/bootstrap.scss";
+
+main {
+  margin-top: 120px;
+  h1 {
+    font-size: 70px;
+    font-weight: 600;
+    transform: translate(0%, 80%);
+  }
+  h2 {
+    font-size: 70px;
+    font-weight: 600;
+    // text-align: ;
+    span {
+      color: $atcGrey;
+    }
+  }
+  .about-first-section {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1709559683/about-us/Group-9_cymdkn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 4.4;
+  }
+  .first-box {
+    h3 {
+      color: $atcRed;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+  p {
+    color: $atcGrey;
+    font-size: 16px;
+    line-height: 18px;
+    width: 70%;
+  }
+  h4 {
+    font-size: 100px;
+    // text-align: center;
+  }
+  h5 {
+    font-size: 38px;
+  }
+  .founder-cont {
+    column-gap: 150px;
+  }
+  .founder-div-line {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img-cont {
+    height: 150px;
+    width: 200px;
+    border-radius: 0px 0px 40px 0px;
+    background-color: $atcGrey;
+  }
+  .triangle-img {
+    height: 40px;
+  }
+  .founder-image {
+    height: 300px;
+    width: 300px;
+    background-color: $atc-blue;
+    border-radius: 100%;
+  }
+  .founder-name {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    span {
+      color: $atcRed;
+    }
+  }
+  .founder-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: $atcGrey;
+  }
+  .team-image {
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+    background-color: $atc-blue;
+    // margin-right: 10px;
+    margin: 0px 20px;
+    opacity: 0.5;
+  }
+  .slick-prev:before, .slick-next:before{
+    color: $atc-blue;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+}
+@media (min-width: 1660px) {
+  main {
+    .about-us-hero-circle-cont {
+      gap: 150px;
+    }
+    .about-us-hero-circle-cont .about-us-hero-circles img {
+      width: 320px;
+    }
+  }
+}
+@include media-breakpoint-down(xxl) {
+  // .hero-header {
+  //   font-size: 3.7rem;
+  // }
+  main {
+    h1 {
+      font-size: 55px;
+    }
+    h2 {
+      font-size: 55px;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    h4 {
+      font-size: 92px;
+    }
+    .team-block {
+      .after-team-div-line {
+        height: 300px;
+      }
+      .team-text-block,
+      .team-img-block > .team-img {
+        width: 500px;
+        height: 500px;
+      }
+      .team-img-block {
+        .team-img-bg-circle {
+          height: 250px;
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  main {
+    .about-us-hero-circle-cont {
+      gap: 100px;
+      .about-us-hero-circles {
+        img {
+          width: 200px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+      }
+    }
+    .img-cont {
+      height: 450px;
+      width: 327px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .team-block {
+      .after-team-div-line {
+        height: 250px;
+      }
+      .team-text-block,
+      .team-img-block > .team-img {
+        width: 400px;
+        height: 400px;
+      }
+      .team-text-block {
+        h4 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+      .team-img-block {
+        .team-img-bg-circle {
+          height: 200px;
+          width: 200px;
+        }
+      }
+      .team-title {
+        h2 {
+          font-size: 55px;
+        }
+      }
+    }
+  }
+  // .hero-header {
+  //   font-size: 3.2rem;
+  // }
+}
+@include media-breakpoint-down(lg) {
+  // .hero-header {
+  //   font-size: 2.7rem;
+  // }
+  // .hero-sub-header {
+  //   width: 100% !important;
+  // }
+  main {
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    h4 {
+      font-size: 68px;
+    }
+    h5 {
+      font-size: 32px;
+    }
+    .founder-cont {
+      gap: 70px;
+    }
+    .img-cont {
+      height: 300px;
+      width: 218px;
+    }
+    .founder-name {
+      font-size: 22px;
+    }
+    .first-box {
+      h3 {
+        font-size: 18px;
+      }
+    }
+
+    p {
+      width: 100%;
+      font-size: 14px;
+    }
+    .founder-image {
+      height: 200px;
+      width: 200px;
+    }
+    .founder-name {
+      font-size: 18px;
+    }
+    .founder-title {
+      font-size: 16px;
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  main {
+    h1,
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    h4 {
+      font-size: 28px;
+    }
+    h5 {
+      font-size: 22px;
+    }
+
+    .about-us-hero-circle-cont {
+      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707464990/about-us/aboutus-bg-mobile_sl2kok.png");
+      margin: 0px;
+    }
+    .founder-cont {
+      gap: 0px;
+    }
+    .img-cont {
+      height: 300px;
+      width: 218px;
+    }
+    .founder-name {
+      font-size: 18px;
+    }
+    .triangle-img {
+      height: 25px;
+    }
+    .founder-div-mobile-line {
+      z-index: -1;
+      position: relative;
+      height: 100px;
+    }
+    .about-us-hero-circle-cont {
+      gap: 40px;
+      padding: 30px 0px;
+      .about-us-hero-circles {
+        img {
+          width: 250px;
+        }
+        h2 {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .team-block {
+      .after-team-div-line {
+        height: 200px;
+      }
+      .team-text-block,
+      .team-img-block > .team-img {
+        width: 300px;
+        height: 300px;
+      }
+      .team-text-block {
+        h4 {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+      .team-img-block {
+        .team-img-bg-circle {
+          display: none;
+        }
+      }
+      .team-title {
+        h2 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  // .hero-header {
+  //   font-size: 1.8rem;
+  // }
+}

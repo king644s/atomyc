@@ -1,0 +1,32 @@
+// colors
+
+// Blue- 0d588f
+// Grey- 77787b
+// Red- c03e27
+
+$atc-blue: #0d588f;
+$atcGrey: #77787b;
+$atcRed: #c03e27;
+$footer-gray-1: #bababa;
+$footer-gray-2: #9b9b9b;
+$footer-gray-3: #777777;
+
+$primary: $atc-blue;
+
+// navbar
+
+$nav-link-font-size: 0.8rem;
+$nav-link-color: $atc-blue;
+$navbar-nav-link-padding-x: 2rem;
+$navbar-height-desktop: 88px;
+$navbar-toggler-icon-bg: url("../assets/website\ hamburger.svg");
+
+// clinetele
+
+$clientele-css-sprite: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707734120/clientele/Logo_Sprite_1_wog4sn.png");
+$clientele-css-sprite-lg: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707895489/clientele/Logo_Sprite_md_n7n1gt.png");
+$clientele-css-sprite-mobile: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707897308/clientele/Logo_Sprite_mobile_kimmhg.png");
+
+$client-desktop: 300;
+$client-lg: 200;
+$client-mobile: 100;

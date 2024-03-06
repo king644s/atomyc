@@ -1,0 +1,207 @@
+@import "./fonts.scss";
+@import "./var.scss";
+@import "../bootstrap/scss/bootstrap.scss";
+
+main {
+  padding-top: 120px;
+  min-height: 100vh;
+  h1 {
+    font-size: 70px;
+    font-weight: 600;
+    transform: translate(0%, 80%);
+  }
+  .contact-first-section {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707473083/contact-us/contact-us-bg_kepxms.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 4.4;
+  }
+  .contact-second-section {
+    margin: 70px 0px 100px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: $atcGrey;
+    line-height: 36px;
+    a {
+      color: $atcGrey;
+    }
+    &:not(:first-of-type) {
+      margin-top: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+}
+@media (min-width: 1660px) {
+  main {
+    h1 {
+      font-size: 90px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+  }
+}
+@include media-breakpoint-down(xxl) {
+  // .hero-header {
+  //   font-size: 3.7rem;
+  // }
+  main {
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    h4 {
+      font-size: 92px;
+    }
+    .team-block {
+      .after-team-div-line {
+        height: 300px;
+      }
+      .team-text-block,
+      .team-img-block > .team-img {
+        width: 500px;
+        height: 500px;
+      }
+      .team-img-block {
+        .team-img-bg-circle {
+          height: 250px;
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  main {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 18px;
+      line-height: 28px;
+      &:not(:first-of-type) {
+        margin-top: 20px;
+      }
+    }
+    .contact-second-section {
+      margin: 50px 0px 80px;
+    }
+  }
+}
+@include media-breakpoint-down(lg) {
+  main {
+    h1 {
+      font-size: 38px;
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 24px;
+      &:not(:first-of-type) {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  main {
+    .contact-first-section {
+      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707476413/contact-us/contact-us-mobile_tnb4al.png");
+      aspect-ratio: 1.5;
+    }
+    h1 {
+      font-size: 28px;
+      transform: translate(0%);
+      
+    }
+    h2 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    h4 {
+      font-size: 28px;
+    }
+    h5 {
+      font-size: 22px;
+    }
+
+    .about-us-hero-circle-cont {
+      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707464990/about-us/aboutus-bg-mobile_sl2kok.png");
+      margin: 0px;
+    }
+    .founder-cont {
+      gap: 0px;
+    }
+    .img-cont {
+      height: 300px;
+      width: 218px;
+    }
+    .founder-name {
+      font-size: 18px;
+    }
+    .triangle-img {
+      height: 25px;
+    }
+    .founder-div-mobile-line {
+      z-index: -1;
+      position: relative;
+      height: 100px;
+    }
+    .about-us-hero-circle-cont {
+      gap: 40px;
+      padding: 30px 0px;
+      .about-us-hero-circles {
+        img {
+          width: 250px;
+        }
+        h2 {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .team-block {
+      .after-team-div-line {
+        height: 200px;
+      }
+      .team-text-block,
+      .team-img-block > .team-img {
+        width: 300px;
+        height: 300px;
+      }
+      .team-text-block {
+        h4 {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+      .team-img-block {
+        .team-img-bg-circle {
+          display: none;
+        }
+      }
+      .team-title {
+        h2 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  // .hero-header {
+  //   font-size: 1.8rem;
+  // }
+}
