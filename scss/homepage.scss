@@ -52,8 +52,8 @@ main {
     border: none;
   }
 }
-.slider-description{
-  font-size:14px;
+.slider-description {
+  font-size: 14px;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -96,13 +96,13 @@ main {
 }
 
 .hero-sub-header {
-  font-size: 18px;
+  font-size: 24px;
   color: $atc-blue;
   line-height: 1.5rem;
   letter-spacing: -1px;
 }
 // cover images
-picture{
+picture {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +111,7 @@ picture{
 .homepage-cover-image {
   aspect-ratio: 1.5;
   object-fit: contain;
-  width: 70%;
+  width: 75%;
 }
 
 .hero-title {
@@ -125,12 +125,12 @@ picture{
   @extend .display-6;
   font-weight: 600;
   font-size: 38px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
-.insights-col-subtext{
+.insights-col-subtext {
   font-weight: 400;
 }
-.insights-col-subtext-small{
+.insights-col-subtext-small {
   font-weight: 400;
   font-size: 32px;
 }
@@ -151,6 +151,10 @@ picture{
   @extend .animate__slideInUp;
   display: block;
 }
+.home-insignts{
+  height: 100vh;
+
+}
 
 // media querys
 
@@ -161,7 +165,7 @@ picture{
     letter-spacing: -3px;
     line-height: 82px;
   }
-  .hero-sub-header{
+  .hero-sub-header {
     width: 50%;
   }
 }
@@ -175,16 +179,17 @@ picture{
     line-height: 120px;
   }
   .hero-sub-header {
-    width: 40% ;
+    width: 40%;
     transform: translate(-15%, 0%);
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 27px;
   }
 }
 @include media-breakpoint-down(xxl) {
   .hero-header {
     font-size: 3.7rem;
   }
-  .hero-sub-header{
+  .hero-sub-header {
     width: 50%;
   }
 }
@@ -199,7 +204,7 @@ picture{
     font-size: 2.7rem;
   }
   .hero-sub-header {
-    width: 100% ;
+    width: 100%;
   }
   main,
   .intro,
@@ -210,15 +215,15 @@ picture{
   .slide {
     // height: auto !important;
   }
-  .first-view-section{
+  .first-view-section {
     margin: 150px 0px 100px;
   }
-  .home-insignts{
-    margin: 100px 0px ;
+  .home-insignts {
+    margin: 100px 0px;
   }
-  .homepage-cover-image{
+  .homepage-cover-image {
     aspect-ratio: 0.5;
-    // width: 100%;
+    width: 90%;
   }
 }
 @include media-breakpoint-down(md) {
@@ -245,19 +250,22 @@ picture{
     top: 45%;
     left: 45%;
   }
- .slider-description{
-  left: 50%;
-  translate: -50% -10%;
-  width: 80%;
-  font-size: 12px;
- }
+  .slider-description {
+    left: 50%;
+    translate: -50% -10%;
+    width: 80%;
+    font-size: 12px;
+  }
+  .home-insignts {
+    height: calc(100% - 130px);
+  }
 }
 @include media-breakpoint-down(sm) {
   .hero-header {
     font-size: 1.8rem;
   }
-  .hero-title,.insights-col-text {
-   letter-spacing: -1px;
+  .hero-title,
+  .insights-col-text {
+    letter-spacing: -1px;
   }
-  
 }

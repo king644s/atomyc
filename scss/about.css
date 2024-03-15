@@ -12010,7 +12010,7 @@ main p {
   color: #77787b;
   font-size: 16px;
   line-height: 18px;
-  width: 70%;
+  width: 85%;
 }
 main h4, main .h4 {
   font-size: 100px;
@@ -12065,11 +12065,15 @@ main .team-image {
   margin: 0px 20px;
   opacity: 0.5;
 }
-main .slick-prev:before, main .slick-next:before {
+main .slick-prev:before,
+main .slick-next:before {
   color: #0d588f;
 }
 
 @media (min-width: 1660px) {
+  main h1, main .h1 {
+    font-size: 90px;
+  }
   main .about-us-hero-circle-cont {
     gap: 150px;
   }
@@ -12079,7 +12083,7 @@ main .slick-prev:before, main .slick-next:before {
 }
 @media (max-width: 1399.98px) {
   main h1, main .h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   main h2, main .h2 {
     font-size: 55px;
@@ -12143,7 +12147,7 @@ main .slick-prev:before, main .slick-next:before {
 }
 @media (max-width: 991.98px) {
   main h1, main .h1 {
-    font-size: 36px;
+    font-size: 38px;
   }
   main h2, main .h2 {
     font-size: 36px;
@@ -12187,10 +12191,15 @@ main .slick-prev:before, main .slick-next:before {
   }
 }
 @media (max-width: 767.98px) {
+  main .about-first-section {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1710514465/about-us/AboutUs_MobileBanner_umwbu0.png");
+    aspect-ratio: 1.5;
+    margin-top: -30px;
+  }
   main h1, main .h1,
   main h2,
   main .h2 {
-    font-size: 22px;
+    font-size: 28px;
   }
   main h3, main .h3 {
     font-size: 12px;

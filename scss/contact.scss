@@ -26,6 +26,9 @@ main {
     letter-spacing: -1px;
     color: $atcGrey;
     line-height: 36px;
+    span{
+      color : $atcRed
+    }
     a {
       color: $atcGrey;
     }

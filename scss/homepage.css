@@ -12066,7 +12066,7 @@ main {
 }
 
 .hero-sub-header {
-  font-size: 18px;
+  font-size: 24px;
   color: #0d588f;
   line-height: 1.5rem;
   letter-spacing: -1px;
@@ -12082,7 +12082,7 @@ picture {
   aspect-ratio: 1.5;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 70%;
+  width: 75%;
 }
 
 .hero-title {
@@ -12094,7 +12094,7 @@ picture {
   text-transform: capitalize;
   font-weight: 600;
   font-size: 38px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 
 .insights-col-subtext {
@@ -12119,6 +12119,10 @@ picture {
   display: block;
 }
 
+.home-insignts {
+  height: 100vh;
+}
+
 @media (min-width: 1400px) {
   .hero-header {
     font-size: 4.8rem;
@@ -12140,7 +12144,8 @@ picture {
   .hero-sub-header {
     width: 40%;
     transform: translate(-15%, 0%);
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 27px;
   }
 }
 @media (max-width: 1399.98px) {
@@ -12171,6 +12176,7 @@ picture {
   }
   .homepage-cover-image {
     aspect-ratio: 0.5;
+    width: 90%;
   }
 }
 @media (max-width: 767.98px) {
@@ -12203,12 +12209,16 @@ picture {
     width: 80%;
     font-size: 12px;
   }
+  .home-insignts {
+    height: calc(100% - 130px);
+  }
 }
 @media (max-width: 575.98px) {
   .hero-header {
     font-size: 1.8rem;
   }
-  .hero-title, .insights-col-text {
+  .hero-title,
+  .insights-col-text {
     letter-spacing: -1px;
   }
 }/*# sourceMappingURL=homepage.css.map */

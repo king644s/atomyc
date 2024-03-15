@@ -12005,6 +12005,9 @@ main h2, main .h2 {
   color: #77787b;
   line-height: 36px;
 }
+main h2 span, main .h2 span {
+  color: #c03e27;
+}
 main h2 a, main .h2 a {
   color: #77787b;
 }
