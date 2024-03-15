@@ -12009,10 +12009,6 @@ main .insights-data-block .insights-data-box:hover .insights-data-box-bg {
   scale: 1;
   filter: brightness(0.6);
 }
-main .insights-data-block .insights-data-box:hover .insight-data-description,
-main .insights-data-block .insights-data-box:hover .insight-read-more {
-  color: #fff;
-}
 main .insights-data-block .insights-data-box .insight-data-title {
   font-size: 26px;
   color: #0d588f;

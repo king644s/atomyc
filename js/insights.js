@@ -14,11 +14,11 @@ insightsData.forEach((item) => {
   itemDiv.classList.add("insights-data-box");
   itemDiv.innerHTML = `<h2 class="insight-data-title">${item.title}</h2>
     <p class="insight-data-description">${item.description}</p>
-    <a href="./insights/insight-detail.html" class="insight-read-more">Read More</a>`;
-  itemDiv.appendChild(itemBgDdiv);
+    <a href="${item.page}" class="insight-read-more">Read More</a>`;
+  // itemDiv.appendChild(itemBgDdiv);
 
   const itemParent = document.createElement("div");
-  itemParent.classList.add("col-12","col-md-4");
+  itemParent.classList.add("col-12","col-md-6","col-xl-4");
   itemParent.appendChild(itemDiv);
 
   dataContainer.appendChild(itemParent);

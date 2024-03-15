@@ -52,6 +52,16 @@ main {
     border: none;
   }
 }
+.slider-description{
+  font-size:14px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  max-width: 400px;
+  translate: 15% -25%;
+  text-align: justify;
+  color: #000;
+}
 
 .slick-dots {
   position: absolute;
@@ -101,7 +111,7 @@ picture{
 .homepage-cover-image {
   aspect-ratio: 1.5;
   object-fit: contain;
-  width: 80%;
+  width: 70%;
 }
 
 .hero-title {
@@ -206,6 +216,10 @@ picture{
   .home-insignts{
     margin: 100px 0px ;
   }
+  .homepage-cover-image{
+    aspect-ratio: 0.5;
+    // width: 100%;
+  }
 }
 @include media-breakpoint-down(md) {
   .hero-header {
@@ -231,10 +245,12 @@ picture{
     top: 45%;
     left: 45%;
   }
-  .homepage-cover-image{
-    aspect-ratio: auto;
-    width: 100%;
-  }
+ .slider-description{
+  left: 50%;
+  translate: -50% -10%;
+  width: 80%;
+  font-size: 12px;
+ }
 }
 @include media-breakpoint-down(sm) {
   .hero-header {

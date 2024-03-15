@@ -95,6 +95,7 @@ main::-webkit-scrollbar {
 }
 .one-view-section {
   height: 100dvh;
+  position: relative;
 }
 
 .bg-background {
@@ -321,7 +322,7 @@ footer {
   }
   .first-view-section,
   .one-view-section {
-    height: auto;
+    // height: auto;
   }
 }
 @include media-breakpoint-down(md) {
