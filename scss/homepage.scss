@@ -224,7 +224,7 @@ picture {
   .homepage-cover-image {
     aspect-ratio: unset;
     width: auto;
-    height: 78vh !important;
+    height: 70dvh !important;
   }
 }
 @include media-breakpoint-down(md) {
