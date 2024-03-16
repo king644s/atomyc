@@ -12003,7 +12003,7 @@ main h2, main .h2 {
   font-weight: 600;
   letter-spacing: -1px;
   color: #77787b;
-  line-height: 36px;
+  line-height: 34px;
 }
 main h2 span, main .h2 span {
   color: #c03e27;
@@ -12021,6 +12021,7 @@ main h2:not(:first-of-type), main .h2:not(:first-of-type) {
   }
   main h2, main .h2 {
     font-size: 32px;
+    line-height: 38px;
   }
 }
 @media (max-width: 1399.98px) {

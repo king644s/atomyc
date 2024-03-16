@@ -152,9 +152,8 @@ picture {
   @extend .animate__slideInUp;
   display: block;
 }
-.home-insignts{
+.home-insignts {
   height: 100vh;
-
 }
 
 // media querys
@@ -223,8 +222,9 @@ picture {
     margin: 100px 0px;
   }
   .homepage-cover-image {
-    aspect-ratio: 0.5;
-    width: 90%;
+    aspect-ratio: unset;
+    width: auto;
+    height: 78vh !important;
   }
 }
 @include media-breakpoint-down(md) {

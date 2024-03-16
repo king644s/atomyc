@@ -12175,8 +12175,9 @@ picture {
     margin: 100px 0px;
   }
   .homepage-cover-image {
-    aspect-ratio: 0.5;
-    width: 90%;
+    aspect-ratio: unset;
+    width: auto;
+    height: 78vh !important;
   }
 }
 @media (max-width: 767.98px) {

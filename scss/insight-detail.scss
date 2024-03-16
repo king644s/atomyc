@@ -60,14 +60,12 @@ main {
       .video-box {
         margin: 40px 0px;
         aspect-ratio: 16/9;
+        max-width: 540px;
       }
       .insta-box {
         aspect-ratio: 163/281;
       }
     }
-  }
-  .youtube-video {
-    aspect-ratio: 16/9;
   }
 }
 
@@ -90,6 +88,17 @@ main {
     }
     h2 {
       font-size: 24px;
+    }
+    .after-main {
+      .after-main-right {
+        .video-box {
+          margin: 40px 0px;
+          aspect-ratio: 16/9;
+        }
+        .insta-box {
+          aspect-ratio: 163/281;
+        }
+      }
     }
   }
 }

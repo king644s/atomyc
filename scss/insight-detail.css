@@ -53,12 +53,10 @@ main .after-main .after-main-right h3 {
 main .after-main .after-main-right .video-box {
   margin: 40px 0px;
   aspect-ratio: 16/9;
+  max-width: 540px;
 }
 main .after-main .after-main-right .insta-box {
   aspect-ratio: 163/281;
-}
-main .youtube-video {
-  aspect-ratio: 16/9;
 }
 
 @media screen and (max-width: 1199px) {
@@ -73,6 +71,13 @@ main .youtube-video {
   }
   main h2 {
     font-size: 24px;
+  }
+  main .after-main .after-main-right .video-box {
+    margin: 40px 0px;
+    aspect-ratio: 16/9;
+  }
+  main .after-main .after-main-right .insta-box {
+    aspect-ratio: 163/281;
   }
 }
 @media screen and (max-width: 767px) {
