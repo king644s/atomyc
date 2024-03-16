@@ -12085,9 +12085,10 @@ main h2:not(:first-of-type), main .h2:not(:first-of-type) {
   main h1, main .h1 {
     font-size: 28px;
     transform: translate(0%);
+    letter-spacing: -1.5px;
   }
   main h2, main .h2 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
   main h4, main .h4 {

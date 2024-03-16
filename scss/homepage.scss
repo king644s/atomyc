@@ -59,7 +59,7 @@ main {
   left: 0px;
   max-width: 400px;
   translate: 15% -25%;
-  text-align: justify;
+  // text-align: justify;
   color: #000;
 }
 
@@ -96,7 +96,7 @@ main {
 }
 
 .hero-sub-header {
-  font-size: 24px;
+  font-size: 20px;
   color: $atc-blue;
   line-height: 1.5rem;
   letter-spacing: -1px;
@@ -111,7 +111,7 @@ picture {
 .homepage-cover-image {
   aspect-ratio: 1.5;
   object-fit: contain;
-  width: 75%;
+  width: 70%;
 }
 
 .hero-title {
@@ -124,8 +124,9 @@ picture {
   text-transform: capitalize;
   @extend .display-6;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 35px;
   letter-spacing: -2px;
+  width: 94%;
 }
 .insights-col-subtext {
   font-weight: 400;
@@ -166,7 +167,7 @@ picture {
     line-height: 82px;
   }
   .hero-sub-header {
-    width: 50%;
+    width: 48%;
   }
 }
 @media (min-width: 1660px) {
@@ -233,6 +234,7 @@ picture {
   }
   .hero-sub-header {
     font-size: 14px;
+    line-height: 16px;
   }
   .container-website {
     padding: 0px 20px;

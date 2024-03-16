@@ -14,6 +14,8 @@ main {
   h2 {
     font-size: 70px;
     font-weight: 600;
+    line-height: 65px;
+    letter-spacing: -3px;
     // text-align: ;
     span {
       color: $atcGrey;
@@ -271,6 +273,10 @@ main {
     h1,
     h2 {
       font-size: 28px;
+      letter-spacing: -1.5px;
+    }
+    h2{
+      line-height: 28px;
     }
     h3 {
       font-size: 12px;
