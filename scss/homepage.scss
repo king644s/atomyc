@@ -226,6 +226,12 @@ picture {
     width: auto;
     height: 70dvh !important;
   }
+  .image-2{
+    height: 75dvh !important;
+  }
+  .image-3{
+    height: 78dvh !important;
+  }
 }
 @include media-breakpoint-down(md) {
   .hero-header {

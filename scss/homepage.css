@@ -12179,6 +12179,12 @@ picture {
     width: auto;
     height: 70dvh !important;
   }
+  .image-2 {
+    height: 75dvh !important;
+  }
+  .image-3 {
+    height: 78dvh !important;
+  }
 }
 @media (max-width: 767.98px) {
   .hero-header {
