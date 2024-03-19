@@ -1,4 +1,4 @@
-import { insightsData } from "../data/data.mjs";
+import { insightsData } from "../data/data.js";
 
 var screenWidth = window.innerWidth;
 
