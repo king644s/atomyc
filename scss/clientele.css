@@ -11983,13 +11983,13 @@ textarea.form-control-lg {
   --client-img-deimensions: 300;
 }
 
-.client-img-bg, main .client-section .client-carnelian, main .client-section .client-copper, main .client-section .client-icici, main .client-section .client-thailand, main .client-section .client-oman, main .client-section .client-korea, main .client-section .client-we-derm, main .client-section .client-saral-home, main .client-section .client-house-of-tea, main .client-section .client-foodhall, main .client-section .client-canosh, main .client-section .client-sector, main .client-section .client-super-buddy, main .client-section .client-araya-bagh, main .client-section .client-bounce, main .client-section .client-godrej-security, main .client-section .client-godrej-electricals, main .client-section .client-godrej-construction, main .client-section .client-kuwait-airways, main .client-section .client-ceat, main .client-section .client-aegon-life {
-  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707734120/clientele/Logo_Sprite_1_wog4sn.png");
+.client-img-bg, main .client-section .client-wtf, main .client-section .client-maxima, main .client-section .client-talent, main .client-section .client-productronica, main .client-section .client-magic, main .client-section .client-ignitec, main .client-section .client-furniteer, main .client-section .client-sdi, main .client-section .client-azzarol, main .client-section .client-electronic, main .client-section .client-french, main .client-section .client-carnelian, main .client-section .client-copper, main .client-section .client-icici, main .client-section .client-thailand, main .client-section .client-oman, main .client-section .client-korea, main .client-section .client-we-derm, main .client-section .client-saral-home, main .client-section .client-house-of-tea, main .client-section .client-foodhall, main .client-section .client-canosh, main .client-section .client-sector, main .client-section .client-super-buddy, main .client-section .client-araya-bagh, main .client-section .client-bounce, main .client-section .client-godrej-security, main .client-section .client-godrej-electricals, main .client-section .client-godrej-construction, main .client-section .client-kuwait-airways, main .client-section .client-ceat, main .client-section .client-aegon-life {
+  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1715751704/clientele/Logo_Sprite_onxrxi.png");
   background-repeat: no-repeat;
   filter: gray; /* IE6-9 */ /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
-.client-img-bg:hover, main .client-section .client-carnelian:hover, main .client-section .client-copper:hover, main .client-section .client-icici:hover, main .client-section .client-thailand:hover, main .client-section .client-oman:hover, main .client-section .client-korea:hover, main .client-section .client-we-derm:hover, main .client-section .client-saral-home:hover, main .client-section .client-house-of-tea:hover, main .client-section .client-foodhall:hover, main .client-section .client-canosh:hover, main .client-section .client-sector:hover, main .client-section .client-super-buddy:hover, main .client-section .client-araya-bagh:hover, main .client-section .client-bounce:hover, main .client-section .client-godrej-security:hover, main .client-section .client-godrej-electricals:hover, main .client-section .client-godrej-construction:hover, main .client-section .client-kuwait-airways:hover, main .client-section .client-ceat:hover, main .client-section .client-aegon-life:hover {
+.client-img-bg:hover, main .client-section .client-wtf:hover, main .client-section .client-maxima:hover, main .client-section .client-talent:hover, main .client-section .client-productronica:hover, main .client-section .client-magic:hover, main .client-section .client-ignitec:hover, main .client-section .client-furniteer:hover, main .client-section .client-sdi:hover, main .client-section .client-azzarol:hover, main .client-section .client-electronic:hover, main .client-section .client-french:hover, main .client-section .client-carnelian:hover, main .client-section .client-copper:hover, main .client-section .client-icici:hover, main .client-section .client-thailand:hover, main .client-section .client-oman:hover, main .client-section .client-korea:hover, main .client-section .client-we-derm:hover, main .client-section .client-saral-home:hover, main .client-section .client-house-of-tea:hover, main .client-section .client-foodhall:hover, main .client-section .client-canosh:hover, main .client-section .client-sector:hover, main .client-section .client-super-buddy:hover, main .client-section .client-araya-bagh:hover, main .client-section .client-bounce:hover, main .client-section .client-godrej-security:hover, main .client-section .client-godrej-electricals:hover, main .client-section .client-godrej-construction:hover, main .client-section .client-kuwait-airways:hover, main .client-section .client-ceat:hover, main .client-section .client-aegon-life:hover {
   filter: none;
 }
 
@@ -12117,6 +12117,61 @@ main .client-section .client-carnelian {
   scale: 0.4;
   margin-top: -60px;
 }
+main .client-section .client-french {
+  background-position: calc(var(--client-img-deimensions) * -1px) calc(var(--client-img-deimensions) * -4px);
+  scale: 1;
+  margin-top: -60px;
+}
+main .client-section .client-electronic {
+  background-position: calc(var(--client-img-deimensions) * -2px) calc(var(--client-img-deimensions) * -4px);
+  scale: 1;
+  margin-top: -60px;
+}
+main .client-section .client-azzarol {
+  background-position: calc(var(--client-img-deimensions) * -3px) calc(var(--client-img-deimensions) * -4px);
+  scale: 0.8;
+  margin-top: -60px;
+}
+main .client-section .client-sdi {
+  background-position: calc(var(--client-img-deimensions) * -4px) calc(var(--client-img-deimensions) * -4px);
+  scale: 0.8;
+  margin-top: -60px;
+}
+main .client-section .client-furniteer {
+  background-position: calc(var(--client-img-deimensions) * 0px) calc(var(--client-img-deimensions) * -5px);
+  scale: 0.8;
+  margin-top: -60px;
+}
+main .client-section .client-ignitec {
+  background-position: calc(var(--client-img-deimensions) * -1px) calc(var(--client-img-deimensions) * -5px);
+  scale: 0.6;
+  margin-top: -60px;
+}
+main .client-section .client-magic {
+  background-position: calc(var(--client-img-deimensions) * -2px) calc(var(--client-img-deimensions) * -5px);
+  scale: 0.7;
+  margin-top: -60px;
+}
+main .client-section .client-productronica {
+  background-position: calc(var(--client-img-deimensions) * -3px) calc(var(--client-img-deimensions) * -5px);
+  scale: 1;
+  margin-top: -60px;
+}
+main .client-section .client-talent {
+  background-position: calc(var(--client-img-deimensions) * -4px) calc(var(--client-img-deimensions) * -5px);
+  scale: 0.8;
+  margin-top: -60px;
+}
+main .client-section .client-maxima {
+  background-position: calc(var(--client-img-deimensions) * 0px) calc(var(--client-img-deimensions) * -6px);
+  scale: 0.8;
+  margin-top: -60px;
+}
+main .client-section .client-wtf {
+  background-position: calc(var(--client-img-deimensions) * -1px) calc(var(--client-img-deimensions) * -6px);
+  scale: 0.6;
+  margin-top: -60px;
+}
 
 @media (min-width: 1400px) {
   .client-section {
@@ -12137,8 +12192,8 @@ main .client-section .client-carnelian {
   :root {
     --client-img-deimensions: 200;
   }
-  .client-img-bg, main .client-section .client-aegon-life, main .client-section .client-ceat, main .client-section .client-kuwait-airways, main .client-section .client-godrej-construction, main .client-section .client-godrej-electricals, main .client-section .client-godrej-security, main .client-section .client-bounce, main .client-section .client-araya-bagh, main .client-section .client-super-buddy, main .client-section .client-sector, main .client-section .client-canosh, main .client-section .client-foodhall, main .client-section .client-house-of-tea, main .client-section .client-saral-home, main .client-section .client-we-derm, main .client-section .client-korea, main .client-section .client-oman, main .client-section .client-thailand, main .client-section .client-icici, main .client-section .client-copper, main .client-section .client-carnelian {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707895489/clientele/Logo_Sprite_md_n7n1gt.png");
+  .client-img-bg, main .client-section .client-aegon-life, main .client-section .client-ceat, main .client-section .client-kuwait-airways, main .client-section .client-godrej-construction, main .client-section .client-godrej-electricals, main .client-section .client-godrej-security, main .client-section .client-bounce, main .client-section .client-araya-bagh, main .client-section .client-super-buddy, main .client-section .client-sector, main .client-section .client-canosh, main .client-section .client-foodhall, main .client-section .client-house-of-tea, main .client-section .client-saral-home, main .client-section .client-we-derm, main .client-section .client-korea, main .client-section .client-oman, main .client-section .client-thailand, main .client-section .client-icici, main .client-section .client-copper, main .client-section .client-carnelian, main .client-section .client-french, main .client-section .client-electronic, main .client-section .client-azzarol, main .client-section .client-sdi, main .client-section .client-furniteer, main .client-section .client-ignitec, main .client-section .client-magic, main .client-section .client-productronica, main .client-section .client-talent, main .client-section .client-maxima, main .client-section .client-wtf {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/c_scale,w_1000/v1715751704/clientele/Logo_Sprite_onxrxi.png");
   }
   main h1, main .h1 {
     font-size: 50px;
@@ -12157,8 +12212,8 @@ main .client-section .client-carnelian {
   :root {
     --client-img-deimensions: 100;
   }
-  .client-img-bg, main .client-section .client-aegon-life, main .client-section .client-ceat, main .client-section .client-kuwait-airways, main .client-section .client-godrej-construction, main .client-section .client-godrej-electricals, main .client-section .client-godrej-security, main .client-section .client-bounce, main .client-section .client-araya-bagh, main .client-section .client-super-buddy, main .client-section .client-sector, main .client-section .client-canosh, main .client-section .client-foodhall, main .client-section .client-house-of-tea, main .client-section .client-saral-home, main .client-section .client-we-derm, main .client-section .client-korea, main .client-section .client-oman, main .client-section .client-thailand, main .client-section .client-icici, main .client-section .client-copper, main .client-section .client-carnelian {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707897308/clientele/Logo_Sprite_mobile_kimmhg.png");
+  .client-img-bg, main .client-section .client-aegon-life, main .client-section .client-ceat, main .client-section .client-kuwait-airways, main .client-section .client-godrej-construction, main .client-section .client-godrej-electricals, main .client-section .client-godrej-security, main .client-section .client-bounce, main .client-section .client-araya-bagh, main .client-section .client-super-buddy, main .client-section .client-sector, main .client-section .client-canosh, main .client-section .client-foodhall, main .client-section .client-house-of-tea, main .client-section .client-saral-home, main .client-section .client-we-derm, main .client-section .client-korea, main .client-section .client-oman, main .client-section .client-thailand, main .client-section .client-icici, main .client-section .client-copper, main .client-section .client-carnelian, main .client-section .client-french, main .client-section .client-electronic, main .client-section .client-azzarol, main .client-section .client-sdi, main .client-section .client-furniteer, main .client-section .client-ignitec, main .client-section .client-magic, main .client-section .client-productronica, main .client-section .client-talent, main .client-section .client-maxima, main .client-section .client-wtf {
+    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/c_scale,w_500/v1715751704/clientele/Logo_Sprite_onxrxi.png");
   }
   main .clientele-first-section {
     background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707732588/clientele/Clientele_BG_Mobile_bdj6eh.png");

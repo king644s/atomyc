@@ -110,6 +110,39 @@ main {
     .client-carnelian {
       @include client-image(0, -4, 0.4, -60px);
     }
+    .client-french {
+      @include client-image(-1, -4, 1, -60px);
+    }
+    .client-electronic {
+      @include client-image(-2, -4, 1, -60px);
+    }
+    .client-azzarol {
+      @include client-image(-3, -4, 0.8, -60px);
+    }
+    .client-sdi {
+      @include client-image(-4, -4, 0.8, -60px);
+    }
+    .client-furniteer {
+      @include client-image(0, -5, 0.8, -60px);
+    }
+    .client-ignitec {
+      @include client-image(-1, -5, 0.6, -60px);
+    }
+    .client-magic {
+      @include client-image(-2, -5, 0.7, -60px);
+    }
+    .client-productronica {
+      @include client-image(-3, -5, 1, -60px);
+    }
+    .client-talent {
+      @include client-image(-4, -5, 0.8, -60px);
+    }
+    .client-maxima {
+      @include client-image(0, -6, 0.8, -60px);
+    }
+    .client-wtf {
+      @include client-image(-1, -6, 0.6, -60px);
+    }
   }
 }
 
