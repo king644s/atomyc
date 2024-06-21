@@ -58,6 +58,13 @@ main .after-main .after-main-right .video-box {
 main .after-main .after-main-right .insta-box {
   aspect-ratio: 163/281;
 }
+main .after-main .after-main-right .blog-video {
+  aspect-ratio: 16/9;
+  max-width: 700px;
+  height: auto;
+  width: 100%;
+  margin: 40px 0px;
+}
 
 @media screen and (max-width: 1199px) {
   main h1 {
