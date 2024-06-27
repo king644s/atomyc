@@ -13,7 +13,7 @@
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   &:hover {
     -webkit-filter: grayscale(0);
-    filter: none;
+    // filter: none;
   }
 }
 
@@ -142,6 +142,11 @@ main {
     }
     .client-wtf {
       @include client-image(-1, -6, 0.6, -60px);
+    }
+  }
+  .blue-filter{
+    &:hover{
+      filter: brightness(0) saturate(100%) invert(19%) sepia(95%) saturate(1831%) hue-rotate(188deg) brightness(93%) contrast(90%) !important;
     }
   }
 }
