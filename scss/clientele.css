@@ -11990,7 +11990,8 @@ textarea.form-control-lg {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 .client-img-bg:hover, main .client-section .client-wtf:hover, main .client-section .client-maxima:hover, main .client-section .client-talent:hover, main .client-section .client-productronica:hover, main .client-section .client-magic:hover, main .client-section .client-ignitec:hover, main .client-section .client-furniteer:hover, main .client-section .client-sdi:hover, main .client-section .client-azzarol:hover, main .client-section .client-electronic:hover, main .client-section .client-french:hover, main .client-section .client-carnelian:hover, main .client-section .client-copper:hover, main .client-section .client-icici:hover, main .client-section .client-thailand:hover, main .client-section .client-oman:hover, main .client-section .client-korea:hover, main .client-section .client-we-derm:hover, main .client-section .client-saral-home:hover, main .client-section .client-house-of-tea:hover, main .client-section .client-foodhall:hover, main .client-section .client-canosh:hover, main .client-section .client-sector:hover, main .client-section .client-super-buddy:hover, main .client-section .client-araya-bagh:hover, main .client-section .client-bounce:hover, main .client-section .client-godrej-security:hover, main .client-section .client-godrej-electricals:hover, main .client-section .client-godrej-construction:hover, main .client-section .client-kuwait-airways:hover, main .client-section .client-ceat:hover, main .client-section .client-aegon-life:hover {
-  -webkit-filter: grayscale(0);
+  filter: none;
+  filter: brightness(0) saturate(100%) invert(19%) sepia(95%) saturate(1831%) hue-rotate(188deg) brightness(93%) contrast(90%);
 }
 
 main {

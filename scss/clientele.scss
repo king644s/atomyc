@@ -13,7 +13,9 @@
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   &:hover {
     -webkit-filter: grayscale(0);
-    // filter: none;
+    filter: none;
+    filter: brightness(0) saturate(100%) invert(19%) sepia(95%) saturate(1831%) hue-rotate(188deg) brightness(93%) contrast(90%) ;
+
   }
 }
 
