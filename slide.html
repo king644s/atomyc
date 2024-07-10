@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slideshow</title>
+    <style>
+      /* styles.css */
+      .slideshow-container {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .slideshow-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <img id="slideshow" src="./1.png" alt="Slideshow Image" />
+    </div>
+    <script>
+      // script.js
+      const images = ["./1.png", "./2.png", "./3.png"];
+      let currentIndex = 0;
+      const slideshowElement = document.getElementById("slideshow");
+
+      function showNextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        slideshowElement.src = images[currentIndex];
+      }
+
+      // Change image every 3 seconds
+      setInterval(showNextImage, 1000);
+    </script>
+  </body>
+</html>
