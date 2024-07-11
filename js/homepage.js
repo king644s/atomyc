@@ -96,9 +96,9 @@ slick_2.on("wheel", function (e) {
 });
 
 const images = [
-  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720638979/1_imxjts.png",
-  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720638979/3_wszcqh.png",
-  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720638978/2_g583ec.png",
+  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720725374/Ceat_Collage_screen_1_result_lyoi5u.webp",
+  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720725374/Ceat_Collage_screen_2_result_mqmbtu.webp",
+  "https://res.cloudinary.com/dd9ni3lpr/image/upload/v1720725374/Ceat_Collage_screen_3_result_zfkneo.webp",
 ];
 let currentIndex = 0;
 const slideshowElement = document.getElementById("video-png-ceat");
@@ -114,7 +114,7 @@ function showNextImage() {
 
     // Add the active class to fade in the new image
     slideshowElement.classList.add("active");
-  }, 1000); // Match this duration with the CSS transition duration
+  }, 2500); // Match this duration with the CSS transition duration
 }
 // Start with the first image visible
 window.onload = () => {
@@ -122,4 +122,4 @@ window.onload = () => {
 };
 
 // Change image every 1 seconds
-setInterval(showNextImage, 1000);
+setInterval(showNextImage, 1500);

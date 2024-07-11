@@ -124,6 +124,7 @@ picture {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px 70px;
   img {
     aspect-ratio: 1.5;
     object-fit: contain;
@@ -136,6 +137,7 @@ picture {
   }
 }
 .video-sequencing-overlay{
+  padding: 0px 50px;
   position: absolute;
   top: 50%;
   left: 50%;
