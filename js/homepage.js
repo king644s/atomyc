@@ -218,7 +218,7 @@ if (slideshowElement_sector_desktop) {
   // Generate the image URLs
   const images = Array.from({ length: 287 }, (_, i) => {
     const imageNumber = i.toString().padStart(3, '0');
-    return `https://res.cloudinary.com/dd9ni3lpr/image/upload/v1723629848/PNG_Seq${imageNumber}.webp`;
+    return `https://res.cloudinary.com/dd9ni3lpr/image/upload/v1723629848/PNG_Seq${imageNumber}.png`;
   });
 
   let currentIndex = 0;
