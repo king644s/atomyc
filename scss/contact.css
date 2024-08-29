@@ -11989,7 +11989,7 @@ main h1, main .h1 {
   transform: translate(0%, 80%);
 }
 main .contact-first-section {
-  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707473083/contact-us/contact-us-bg_kepxms.png");
+  background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917374/contact-us-bg_kepxms.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12080,7 +12080,7 @@ main h2:not(:first-of-type), main .h2:not(:first-of-type) {
 }
 @media (max-width: 767.98px) {
   main .contact-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707476413/contact-us/contact-us-mobile_tnb4al.png");
+    background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917375/contact-us-mobile_tnb4al.png");
     aspect-ratio: 1.5;
   }
   main h1, main .h1 {
@@ -12097,10 +12097,6 @@ main h2:not(:first-of-type), main .h2:not(:first-of-type) {
   }
   main h5, main .h5 {
     font-size: 22px;
-  }
-  main .about-us-hero-circle-cont {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707464990/about-us/aboutus-bg-mobile_sl2kok.png");
-    margin: 0px;
   }
   main .founder-cont {
     gap: 0px;

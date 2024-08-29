@@ -36,7 +36,7 @@ main {
     transform: translate(0%, 80%);
   }
   .clientele-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707732587/clientele/Clientele_BG_i6sdiw.png");
+    background-image: $clientele-desktop;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@ main {
 
   main {
     .clientele-first-section {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707732588/clientele/Clientele_BG_Mobile_bdj6eh.png");
+      background-image: $clientele-mobile;
       aspect-ratio: 1.5;
       margin-top: -30px;
     }

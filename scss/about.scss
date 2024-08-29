@@ -22,7 +22,7 @@ main {
     }
   }
   .about-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1709559683/about-us/Group-9_cymdkn.png");
+    background-image: $about-us-desktop;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +266,7 @@ main {
 @include media-breakpoint-down(md) {
   main {
     .about-first-section {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1710514465/about-us/AboutUs_MobileBanner_umwbu0.png");
+      background-image: $about-us-mobile;
       aspect-ratio: 1.5;
       margin-top: -30px;
     }
@@ -290,7 +290,7 @@ main {
     }
 
     .about-us-hero-circle-cont {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707464990/about-us/aboutus-bg-mobile_sl2kok.png");
+      background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917048/aboutus-bg-mobile_sl2kok.png");
       margin: 0px;
     }
     .founder-cont {

@@ -11989,7 +11989,7 @@ main h1, main .h1 {
   transform: translate(0%, 80%);
 }
 main .insights-first-section {
-  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1708501611/insights/Insights-desktop-bg_ziug5g.png");
+  background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917416/Insights-desktop-bg_ziug5g.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12071,7 +12071,7 @@ main .insights-data-block .insights-data-box .insights-data-box-bg {
 }
 @media (max-width: 767.98px) {
   main .insights-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1710512939/insights/Insights_icon_set_mobile_ourkis.png");
+    background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917415/Insights_icon_set_mobile_ourkis.png");
     aspect-ratio: 1.5;
   }
   main h1, main .h1 {

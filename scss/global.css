@@ -12075,7 +12075,7 @@ main::-webkit-scrollbar {
 }
 
 .bg-background, .bg-background-other {
-  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707478296/common/Background_texture_wkt8or.png");
+  background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917330/Background_texture_wkt8or.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12106,7 +12106,7 @@ main::-webkit-scrollbar {
 }
 
 .navbar-toggler-icon {
-  background-image: url("../assets/hamburger-icon.svg");
+  background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724920081/hamburger-icon.svg");
 }
 
 .cursor {
@@ -12242,7 +12242,7 @@ footer ul li {
     position: static;
   }
   .home-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1706869328/common/Background_texture_result_swbijm.webp");
+    background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917329/Background_texture_result_swbijm.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

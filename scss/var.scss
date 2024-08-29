@@ -19,14 +19,34 @@ $nav-link-font-size: 0.8rem;
 $nav-link-color: $atc-blue;
 $navbar-nav-link-padding-x: 2rem;
 $navbar-height-desktop: 88px;
-$navbar-toggler-icon-bg: url("../assets/website\ hamburger.svg");
+$navbar-toggler-icon-bg: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724920081/hamburger-icon.svg");
+
+// homepage
+
+$page-pg:url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917330/Background_texture_wkt8or.png");
 
 // clinetele
 
-$clientele-css-sprite: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1720158103/clientele/Logo_Sprite_blue.2_gjl7lo.png");
-$clientele-css-sprite-lg: url("https://res.cloudinary.com/dhbfad5qc/image/upload/c_scale,w_1000/v1720158103/clientele/Logo_Sprite_blue.2_gjl7lo.png");
-$clientele-css-sprite-mobile: url("https://res.cloudinary.com/dhbfad5qc/image/upload/c_scale,w_500/v1720158103/clientele/Logo_Sprite_blue.2_gjl7lo.png");
+$clientele-css-sprite: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917174/Logo_Sprite_blue.2_gjl7lo.png");
+$clientele-css-sprite-lg: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/c_scale,w_1000/v1724917174/Logo_Sprite_blue.2_gjl7lo.png");
+$clientele-css-sprite-mobile: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/c_scale,w_500/v1724917174/Logo_Sprite_blue.2_gjl7lo.png");
+
+$clientele-desktop: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917172/Clientele_BG_i6sdiw.png");
+$clientele-mobile: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917173/Clientele_BG_Mobile_bdj6eh.png");
 
 $client-desktop: 300;
 $client-lg: 200;
 $client-mobile: 100;
+
+
+//about us 
+$about-us-desktop: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917048/Group-9_cymdkn.png");
+$about-us-mobile: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917047/AboutUs_MobileBanner_umwbu0.png");
+
+// contact us 
+$contact-us-desktop: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917374/contact-us-bg_kepxms.png");
+$contact-us-mobile: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917375/contact-us-mobile_tnb4al.png");
+
+// insigths 
+$insights-desktop: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917416/Insights-desktop-bg_ziug5g.png");
+$insights-mobile: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917415/Insights_icon_set_mobile_ourkis.png");

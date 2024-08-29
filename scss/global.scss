@@ -99,7 +99,7 @@ main::-webkit-scrollbar {
 }
 
 .bg-background {
-  background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707478296/common/Background_texture_wkt8or.png");
+  background-image: $page-pg;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -129,7 +129,7 @@ main::-webkit-scrollbar {
 }
 
 .navbar-toggler-icon {
-  background-image: url("../assets/hamburger-icon.svg");
+  background-image: $navbar-toggler-icon-bg;
 }
 // cursor
 
@@ -312,7 +312,7 @@ footer {
     position: static;
   }
   .home-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1706869328/common/Background_texture_result_swbijm.webp");
+    background-image: url("https://res.cloudinary.com/dd9ni3lpr/image/upload/v1724917329/Background_texture_result_swbijm.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

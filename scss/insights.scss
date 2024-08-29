@@ -11,7 +11,7 @@ main {
     transform: translate(0%, 80%);
   }
   .insights-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1708501611/insights/Insights-desktop-bg_ziug5g.png");
+    background-image: $insights-desktop;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +120,7 @@ main {
 @include media-breakpoint-down(md) {
   main {
     .insights-first-section {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1710512939/insights/Insights_icon_set_mobile_ourkis.png");
+      background-image: $insights-mobile;
       aspect-ratio: 1.5;
     }
     h1 {

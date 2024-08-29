@@ -11,7 +11,7 @@ main {
     transform: translate(0%, 80%);
   }
   .contact-first-section {
-    background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707473083/contact-us/contact-us-bg_kepxms.png");
+    background-image: $contact-us-desktop;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@ main {
 @include media-breakpoint-down(md) {
   main {
     .contact-first-section {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707476413/contact-us/contact-us-mobile_tnb4al.png");
+      background-image: $contact-us-mobile;
       aspect-ratio: 1.5;
     }
     h1 {
@@ -139,11 +139,6 @@ main {
     }
     h5 {
       font-size: 22px;
-    }
-
-    .about-us-hero-circle-cont {
-      background-image: url("https://res.cloudinary.com/dhbfad5qc/image/upload/v1707464990/about-us/aboutus-bg-mobile_sl2kok.png");
-      margin: 0px;
     }
     .founder-cont {
       gap: 0px;
